@@ -1,0 +1,36 @@
+	6.10.2018 19:44:40
+                URL: /api/articles/readall
+                Request: undefined
+                ---------------------------------------
+	6.10.2018 19:44:56
+                URL: /api/articles/read
+                Request: {"id":1}
+                ---------------------------------------
+	6.10.2018 19:45:5
+                URL: /api/articles/create
+                Request: {"id":3,"title":"title9","text":"Some article9","date":12,"author":"User9","comments":[]}
+                ---------------------------------------
+	6.10.2018 19:45:11
+                URL: /api/articles/create
+                Request: {"id":4,"title":"title9","text":"Some article9","date":12,"author":"User9","comments":[]}
+                ---------------------------------------
+	6.10.2018 19:45:16
+                URL: /api/articles/update
+                Request: {"id":2,"title":"Updated title2","text":"Updated some article2","date":13,"author":"User5","comments":[{"id":4,"articleId":1,"text":"Some comment4","date":12,"author":"User6"},{"id":5,"articleId":1,"text":"Some comment5","date":17,"author":"User7"},{"id":6,"articleId":1,"text":"Some comment6","date":22,"author":"User8"}]}
+                ---------------------------------------
+	6.10.2018 19:45:54
+                URL: /api/comments/create
+                Request: {"id":1539362754052,"articleId":1,"text":"Some new comment","date":12,"author":"NewUser"}
+                ---------------------------------------
+	6.10.2018 19:46:3
+                URL: /api/articles/sum
+                Request: {"a":41,"b":1}
+                ---------------------------------------
+	6.10.2018 19:46:13
+                URL: /api/articles/delete
+                Request: {"id":2}
+                ---------------------------------------
+	6.10.2018 19:46:18
+                URL: /api/comments/delete
+                Request: {"id":2,"articleId":1,"text":"Some comment2","date":15,"author":"User3"}
+                ---------------------------------------

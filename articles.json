@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "title1",
+        "text": "Some article1",
+        "date": 10,
+        "author": "User1",
+        "comments": [
+            {
+                "id": 1,
+                "articleId": 1,
+                "text": "Some comment1",
+                "date": 10,
+                "author": "User2"
+            },
+            {
+                "id": 2,
+                "articleId": 1,
+                "text": "Some comment2",
+                "date": 15,
+                "author": "User3"
+            },
+            {
+                "id": 3,
+                "articleId": 1,
+                "text": "Some comment3",
+                "date": 20,
+                "author": "User4"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "title2",
+        "text": "Some article2",
+        "date": 12,
+        "author": "User5",
+        "comments": [
+            {
+                "id": 4,
+                "articleId": 1,
+                "text": "Some comment4",
+                "date": 12,
+                "author": "User6"
+            },
+            {
+                "id": 5,
+                "articleId": 1,
+                "text": "Some comment5",
+                "date": 17,
+                "author": "User7"
+            },
+            {
+                "id": 6,
+                "articleId": 1,
+                "text": "Some comment6",
+                "date": 22,
+                "author": "User8"
+            }
+        ]
+    }
+]
