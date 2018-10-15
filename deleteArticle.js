@@ -1,6 +1,6 @@
 let articles = require('./articles.json');
 const log = require('./log');
-const { file } = require("./index");
+const file = require('fs').createWriteStream('./logfile.log');
 function deleteArticle(req, res, payload, cb) {
     const index = articles.findIndex(article => article.id == payload.id);
     if (index != -1) {

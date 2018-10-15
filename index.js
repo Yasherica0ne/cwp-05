@@ -17,7 +17,6 @@ const { readAll } = require("./readAll");
 const http = require('http');
 const fs = require('fs');
 let = require('./articles.json');
-exports.file = file;
 
 const hostname = '127.0.0.1';
 const port = 3000;

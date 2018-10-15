@@ -1,6 +1,6 @@
 let articles = require('./articles.json');
 const log = require('./log');
-const { file } = require("./index");
+const file = require('fs').createWriteStream('./logfile.log');
 function createComment(req, res, payload, cb) {
     let comment = payload;
     comment.id = Date.now();
